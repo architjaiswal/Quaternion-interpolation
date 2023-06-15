@@ -1,14 +1,13 @@
 """
-EEL 4930/5934: Autonomous Robots
-University Of Florida
+Autonomous Robots
 """
 import numpy as np
 from math import radians
 from matplotlib import pyplot as plt
-from libs_hh2.Transforms import rotation_matrix, get_transform
-from libs_hh2.Transforms import quaternion_from_R, R_from_quaternion
-from libs_hh2.Transforms import quaternion_slerp
-from libs_hh2.utils import DisplayFrame
+from Transforms import rotation_matrix, get_transform
+from Transforms import quaternion_from_R, R_from_quaternion
+from Transforms import quaternion_slerp
+from utils import DisplayFrame
 
 ######## Part B #######################
 t0 = np.array([0., 0., 0.]) 
@@ -73,7 +72,6 @@ ax.set_ylabel('Y')
 ax.set_zlabel('Z')
 plt.show()
 """
-See homework pdf for expected outputs
 num_levels = 10 # change to 50/100 to see the dense pattern
 """
 
