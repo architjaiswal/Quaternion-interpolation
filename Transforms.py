@@ -1,6 +1,6 @@
 import math
 import numpy as np
-from libs_hh2.utils import unit_vector
+from utils import unit_vector
 
 # epsilon for testing whether a number is close to zero
 _EPS = np.finfo(float).eps * 4.0
